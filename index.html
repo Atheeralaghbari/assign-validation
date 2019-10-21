@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-wrap">
+    <form>
+       <label>Name</label><br> <input type="text" id="Commentname" onkeyup="validateName()" class="newclass"/><span id= "commentNamePromt"></span><br><br>
+        <label>Age</label><br><input type='text' name='dob' id ="age" onkeyup="Age_validator()"   class="newclass"/><span id="dob1"></span><br><br>
+
+       <label>Email</label><br><input type="email" id="Commentemail" onkeyup="validateEmail()"  id="email" class="newclass"/><span id= "commentemailPromt"></span><br><br>
+
+       <label id="n">Phone Number:</label><br><input type="text" id="Commentphone" onkeyup="validatePhone()"  class="newclass"/><span id= "commentphonePromt"></span><br><br>
+        <label>Comment:</label><br><textarea id="commentMessges" onkeyup="validateComment()"  class="newclass"></textarea><span id="commentmessagePromt"></span><br><br>
+
+        </form>
+        <button onclick="validateCommentForm()">Submit form</button><br><span id="Submitform"></span>
+
+</div>
+</body>
+<script src="index.js"></script>
+</html>

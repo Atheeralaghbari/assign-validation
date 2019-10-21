@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* html,body{
+    width:100%;
+
+} */
+.form-wrap{
+    padding: 20px;
+    background: cadetblue;
+    width:50%;
+
+/*  
+text-align: center; */
+   margin: 20px 0px 0px 330px;
+}
+.newclass{
+    margin: 30px 0px 0px 50px;
+    padding: 5px;
+    width:300px;
+    border-radius: 20px;
+ /* align-items: center; */
+    /* text-align: center; */
+} 
+label{
+    padding-left: 20px;
+    color:white;
+    padding:20px;
+    text-align: center;
+}
+button{
+    padding: 10px;
+
+}
+/* #n{
+
+    width:100px;
+} */
+/* #Commentname{
+/* margin-left: 10px; */
+/* }
+#age{
+    /* margin-left: 30px;  */
+/* }
+#email{
+   /* margin-left:-30px; */
+/* }
+#Commentphone{
+    padding-left: 30px;
+} */ 
